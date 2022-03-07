@@ -17,3 +17,24 @@ video-wrapper {
   align-items: center;
   justify-content: center;
 }
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: absolute;
+  top: 40%;
+  /*background: rgba(0, 0, 0, 0.5);*/
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+	text-align: center;
+}
+
+.content > .cta {
+  font-size: 6em;
+  text-shadow: 3px 3px #000;
+}
+
+.content > .btn {
+  padding-left: 40px;
+  padding-right: 40px;
+}
