@@ -1,0 +1,6 @@
+Bundle-Name: Jobzz Site Initializer
+Bundle-SymbolicName: com.liferay.example.site.initializer.jobzz
+Bundle-Version: 1.0.0
+Liferay-Site-Initializer-Name: Crowdfunding
+Provide-Capability: liferay.site.initializer
+Web-ContextPath: /jobzz-site-initializer
