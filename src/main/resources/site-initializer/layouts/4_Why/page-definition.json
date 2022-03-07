@@ -107,5 +107,8 @@
     "type": "Root"
   },
   "settings": {
+    "masterPage": {
+      "key": "Jobzz"
+    }
   }
 }
