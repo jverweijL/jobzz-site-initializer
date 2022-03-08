@@ -1,0 +1,347 @@
+<?xml version="1.0"?>
+
+<root>
+    <structure>
+        <name>Job</name>
+        <description></description>
+        <definition>
+            <![CDATA[
+				{
+	"definitionSchemaVersion": "2.0",
+	"availableLanguageIds": ["en_US"],
+	"successPage": {
+		"body": {},
+		"title": {},
+		"enabled": false
+	},
+	"defaultLanguageId": "en_US",
+	"fields": [{
+		"labelAtStructureLevel": true,
+		"tooltip": {
+			"en_US": ""
+		},
+		"requireConfirmation": false,
+		"type": "numeric",
+		"showLabel": true,
+		"required": false,
+		"characterOptions": false,
+		"repeatable": false,
+		"nativeField": false,
+		"confirmationLabel": {
+			"en_US": ""
+		},
+		"fieldReference": "Numeric06891604",
+		"tip": {
+			"en_US": ""
+		},
+		"numericInputMask": {
+			"en_US": "{\"decimalPlaces\":2,\"append\":\"\",\"symbols\":{\"decimalSymbol\":\".\",\"thousandsSeparator\":\"none\"},\"appendType\":\"prefix\"}"
+		},
+		"placeholder": {
+			"en_US": ""
+		},
+		"direction": ["vertical"],
+		"hideField": false,
+		"confirmationErrorMessage": {
+			"en_US": ""
+		},
+		"dataType": "integer",
+		"readOnly": false,
+		"label": {
+			"en_US": "Hours per week"
+		},
+		"inputMask": false,
+		"indexType": "keyword",
+		"fieldNamespace": "",
+		"visibilityExpression": "",
+		"inputMaskFormat": {
+			"en_US": ""
+		},
+		"name": "Numeric26298683",
+		"localizable": true
+	}, {
+		"labelAtStructureLevel": true,
+		"dataType": "date",
+		"readOnly": false,
+		"label": {
+			"en_US": "Closingdate"
+		},
+		"type": "date",
+		"showLabel": true,
+		"required": false,
+		"indexType": "keyword",
+		"fieldNamespace": "",
+		"visibilityExpression": "",
+		"repeatable": false,
+		"name": "Date76137562",
+		"nativeField": false,
+		"localizable": true,
+		"fieldReference": "Date23732769",
+		"tip": {
+			"en_US": ""
+		}
+	}, {
+		"labelAtStructureLevel": true,
+		"ddmDataProviderInstanceId": [],
+		"dataType": "string",
+		"multiple": false,
+		"readOnly": false,
+		"label": {
+			"en_US": "Level"
+		},
+		"type": "select",
+		"showLabel": true,
+		"required": false,
+		"indexType": "keyword",
+		"fieldNamespace": "",
+		"visibilityExpression": "",
+		"ddmDataProviderInstanceOutput": [],
+		"alphabeticalOrder": false,
+		"repeatable": false,
+		"name": "SelectFromList77755269",
+		"options": [{
+			"reference": "Option33748862",
+			"label": {
+				"en_US": "WO"
+			},
+			"value": "Option33748862"
+		}, {
+			"reference": "Option01311616",
+			"label": {
+				"en_US": "HBO"
+			},
+			"value": "Option01311616"
+		}, {
+			"reference": "Option00384140",
+			"label": {
+				"en_US": "MBO"
+			},
+			"value": "Option00384140"
+		}],
+		"nativeField": false,
+		"localizable": true,
+		"fieldReference": "SelectFromList19047357",
+		"tip": {
+			"en_US": ""
+		},
+		"dataSourceType": ["manual"]
+	}, {
+		"labelAtStructureLevel": true,
+		"dataType": "string",
+		"readOnly": false,
+		"showAsSwitcher": true,
+		"label": {
+			"en_US": "Share"
+		},
+		"type": "checkbox_multiple",
+		"showLabel": true,
+		"required": false,
+		"indexType": "keyword",
+		"fieldNamespace": "",
+		"visibilityExpression": "",
+		"inline": true,
+		"repeatable": false,
+		"name": "MultipleSelection93746858",
+		"options": [{
+			"reference": "Option87579564",
+			"label": {
+				"en_US": "LinkedIN"
+			},
+			"value": "Option87579564"
+		}, {
+			"reference": "Option76171979",
+			"label": {
+				"en_US": "Facebook"
+			},
+			"value": "Option76171979"
+		}, {
+			"reference": "Option77563421",
+			"label": {
+				"en_US": "Jobbird"
+			},
+			"value": "Option77563421"
+		}],
+		"nativeField": false,
+		"localizable": true,
+		"fieldReference": "MultipleSelection74189716",
+		"tip": {
+			"en_US": ""
+		}
+	}, {
+		"rulesConditionDisabled": true,
+		"dataType": "",
+		"readOnly": false,
+		"label": {
+			"en_US": "Job"
+		},
+		"type": "separator",
+		"showLabel": true,
+		"required": false,
+		"repeatable": false,
+		"name": "Separator23323087",
+		"localizable": false,
+		"fieldReference": "Separator21690222",
+		"tip": {
+			"en_US": ""
+		},
+		"style": {
+			"en_US": ""
+		}
+	}, {
+		"labelAtStructureLevel": true,
+		"ddmDataProviderInstanceId": [],
+		"tooltip": {
+			"en_US": ""
+		},
+		"requireConfirmation": false,
+		"type": "text",
+		"showLabel": true,
+		"required": false,
+		"displayStyle": "multiline",
+		"ddmDataProviderInstanceOutput": [],
+		"repeatable": false,
+		"nativeField": false,
+		"confirmationLabel": {
+			"en_US": ""
+		},
+		"fieldReference": "Text20791603",
+		"tip": {
+			"en_US": ""
+		},
+		"placeholder": {
+			"en_US": ""
+		},
+		"direction": ["vertical"],
+		"hideField": false,
+		"confirmationErrorMessage": {
+			"en_US": ""
+		},
+		"autocomplete": false,
+		"dataType": "string",
+		"readOnly": false,
+		"label": {
+			"en_US": "Intro"
+		},
+		"indexType": "keyword",
+		"fieldNamespace": "",
+		"visibilityExpression": "",
+		"name": "Text82425611",
+		"localizable": true,
+		"dataSourceType": ""
+	}, {
+		"labelAtStructureLevel": true,
+		"hideField": false,
+		"confirmationErrorMessage": {
+			"en_US": ""
+		},
+		"dataType": "string",
+		"tooltip": {
+			"en_US": ""
+		},
+		"readOnly": false,
+		"requireConfirmation": false,
+		"label": {
+			"en_US": "Description"
+		},
+		"type": "text",
+		"showLabel": true,
+		"required": false,
+		"displayStyle": "multiline",
+		"indexType": "keyword",
+		"fieldNamespace": "",
+		"visibilityExpression": "",
+		"repeatable": false,
+		"name": "Text10426289",
+		"nativeField": false,
+		"localizable": true,
+		"confirmationLabel": {
+			"en_US": ""
+		},
+		"fieldReference": "Text42253664",
+		"tip": {
+			"en_US": ""
+		},
+		"placeholder": {
+			"en_US": ""
+		},
+		"direction": ["vertical"]
+	}, {
+		"labelAtStructureLevel": true,
+		"hideField": false,
+		"confirmationErrorMessage": {
+			"en_US": ""
+		},
+		"dataType": "string",
+		"tooltip": {
+			"en_US": ""
+		},
+		"readOnly": false,
+		"requireConfirmation": false,
+		"label": {
+			"en_US": "What we need"
+		},
+		"type": "text",
+		"showLabel": true,
+		"required": false,
+		"displayStyle": "multiline",
+		"indexType": "keyword",
+		"fieldNamespace": "",
+		"visibilityExpression": "",
+		"repeatable": false,
+		"name": "Text31871364",
+		"nativeField": false,
+		"localizable": true,
+		"confirmationLabel": {
+			"en_US": ""
+		},
+		"fieldReference": "Text53000217",
+		"tip": {
+			"en_US": ""
+		},
+		"placeholder": {
+			"en_US": ""
+		},
+		"direction": ["vertical"]
+	}, {
+		"labelAtStructureLevel": true,
+		"hideField": false,
+		"confirmationErrorMessage": {
+			"en_US": ""
+		},
+		"dataType": "string",
+		"tooltip": {
+			"en_US": ""
+		},
+		"readOnly": false,
+		"requireConfirmation": false,
+		"label": {
+			"en_US": "What we offer"
+		},
+		"type": "text",
+		"showLabel": true,
+		"required": false,
+		"displayStyle": "multiline",
+		"indexType": "keyword",
+		"fieldNamespace": "",
+		"visibilityExpression": "",
+		"repeatable": false,
+		"name": "Text38362127",
+		"nativeField": false,
+		"localizable": true,
+		"confirmationLabel": {
+			"en_US": ""
+		},
+		"fieldReference": "Text76017007",
+		"tip": {
+			"en_US": ""
+		},
+		"placeholder": {
+			"en_US": ""
+		},
+		"direction": ["vertical"]
+	}]
+}
+			]]>
+        </definition>
+    </structure>
+</root>
