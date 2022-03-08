@@ -6,11 +6,12 @@
           "fragmentStyle": {
             "backgroundColor": "colorNeutral0",
             "borderWidth": "0",
+            "marginBottom": "5",
             "textAlign": ""
           },
           "layout": {
             "borderWidth": 0,
-            "marginBottom": 0,
+            "marginBottom": 4,
             "marginLeft": 0,
             "marginRight": 0,
             "marginTop": 0,
@@ -28,9 +29,472 @@
                 "key": "video"
               },
               "fragmentConfig": {},
-              "fragmentFields": []
+              "fragmentFields": [
+                {
+                  "id": "cta",
+                  "value": {
+                    "fragmentLink": {
+                      "value_i18n": {}
+                    }
+                  }
+                }
+              ],
+              "fragmentStyle": {
+                "marginBottom": "3"
+              }
             },
             "type": "Fragment"
+          }
+        ],
+        "type": "Section"
+      },
+      {
+        "definition": {
+          "fragmentStyle": {
+            "borderWidth": "0",
+            "marginBottom": "5"
+          },
+          "layout": {
+            "borderWidth": 0,
+            "marginBottom": 4,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "paddingTop": 0,
+            "widthType": "Fixed"
+          }
+        },
+        "pageElements": [
+          {
+            "definition": {
+              "fragment": {
+                "key": "lead"
+              },
+              "fragmentConfig": {},
+              "fragmentFields": [
+                {
+                  "id": "lead",
+                  "value": {
+                    "fragmentLink": {
+                      "value_i18n": {}
+                    }
+                  }
+                }
+              ]
+            },
+            "type": "Fragment"
+          },
+          {
+            "definition": {
+              "fragment": {
+                "key": "lead"
+              },
+              "fragmentConfig": {},
+              "fragmentFields": [
+                {
+                  "id": "lead",
+                  "value": {
+                    "fragmentLink": {
+                      "value_i18n": {}
+                    },
+                    "text": {
+                      "value_i18n": {
+                        "en_US": "And you are ours"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            "type": "Fragment"
+          },
+          {
+            "definition": {
+              "fragment": {
+                "key": "lead"
+              },
+              "fragmentConfig": {},
+              "fragmentFields": [
+                {
+                  "id": "lead",
+                  "value": {
+                    "fragmentLink": {
+                      "value_i18n": {}
+                    },
+                    "text": {
+                      "value_i18n": {
+                        "en_US": "Welcome at Jobzz"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            "type": "Fragment"
+          }
+        ],
+        "type": "Section"
+      },
+      {
+        "definition": {
+          "fragmentStyle": {
+            "marginBottom": "5"
+          },
+          "layout": {
+            "borderWidth": 0,
+            "marginBottom": 4,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "paddingTop": 0,
+            "widthType": "Fixed"
+          }
+        },
+        "pageElements": [
+          {
+            "definition": {
+              "gutters": true,
+              "modulesPerRow": 2,
+              "numberOfColumns": 2,
+              "reverseOrder": false,
+              "rowViewports": [
+                {
+                  "id": "landscapeMobile",
+                  "rowViewportDefinition": {}
+                },
+                {
+                  "id": "portraitMobile",
+                  "rowViewportDefinition": {}
+                },
+                {
+                  "id": "tablet",
+                  "rowViewportDefinition": {}
+                }
+              ],
+              "verticalAlignment": "top"
+            },
+            "pageElements": [
+              {
+                "definition": {
+                  "columnViewports": [
+                    {
+                      "columnViewportDefinition": {},
+                      "id": "landscapeMobile"
+                    },
+                    {
+                      "columnViewportDefinition": {},
+                      "id": "portraitMobile"
+                    },
+                    {
+                      "columnViewportDefinition": {},
+                      "id": "tablet"
+                    }
+                  ],
+                  "size": 7
+                },
+                "pageElements": [
+                  {
+                    "definition": {
+                      "fragment": {
+                        "key": "BASIC_COMPONENT-paragraph"
+                      },
+                      "fragmentConfig": {},
+                      "fragmentFields": [
+                        {
+                          "id": "element-text",
+                          "value": {
+                            "fragmentLink": {
+                              "value_i18n": {}
+                            },
+                            "text": {
+                              "value_i18n": {
+                                "en_US": "<span class=\"lead\">Work at Jobzz</span><br />\nA modern company. Great employee benefits. Lots of fun. New challenges every day. Grow and get better. Nice people.<br />\n&nbsp;\n<p><strong>Jobzz. The place to be.</strong></p>\n"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "type": "Fragment"
+                  }
+                ],
+                "type": "Column"
+              },
+              {
+                "definition": {
+                  "columnViewports": [
+                    {
+                      "columnViewportDefinition": {},
+                      "id": "landscapeMobile"
+                    },
+                    {
+                      "columnViewportDefinition": {},
+                      "id": "portraitMobile"
+                    },
+                    {
+                      "columnViewportDefinition": {},
+                      "id": "tablet"
+                    }
+                  ],
+                  "size": 5
+                },
+                "pageElements": [
+                  {
+                    "definition": {
+                      "fragment": {
+                        "key": "BASIC_COMPONENT-heading"
+                      },
+                      "fragmentConfig": {
+                        "headingLevel": "h4"
+                      },
+                      "fragmentFields": [
+                        {
+                          "id": "element-text",
+                          "value": {
+                            "fragmentLink": {
+                              "value_i18n": {}
+                            },
+                            "text": {
+                              "value_i18n": {
+                                "en_US": "Checkout"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "type": "Fragment"
+                  }
+                ],
+                "type": "Column"
+              }
+            ],
+            "type": "Row"
+          }
+        ],
+        "type": "Section"
+      },
+      {
+        "definition": {
+          "fragmentStyle": {
+            "backgroundColor": "colorNeutral4",
+            "paddingBottom": "5",
+            "paddingTop": "5"
+          },
+          "layout": {
+            "borderWidth": 0,
+            "marginBottom": 0,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 0,
+            "paddingBottom": 4,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "paddingTop": 4,
+            "widthType": "Fluid"
+          }
+        },
+        "pageElements": [
+          {
+            "definition": {
+              "layout": {
+                "borderWidth": 0,
+                "marginBottom": 0,
+                "marginLeft": 0,
+                "marginRight": 0,
+                "marginTop": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "widthType": "Fixed"
+              }
+            },
+            "pageElements": [
+              {
+                "definition": {
+                  "gutters": true,
+                  "modulesPerRow": 2,
+                  "numberOfColumns": 2,
+                  "reverseOrder": false,
+                  "rowViewports": [
+                    {
+                      "id": "landscapeMobile",
+                      "rowViewportDefinition": {}
+                    },
+                    {
+                      "id": "portraitMobile",
+                      "rowViewportDefinition": {}
+                    },
+                    {
+                      "id": "tablet",
+                      "rowViewportDefinition": {}
+                    }
+                  ],
+                  "verticalAlignment": "top"
+                },
+                "pageElements": [
+                  {
+                    "definition": {
+                      "columnViewports": [
+                        {
+                          "columnViewportDefinition": {},
+                          "id": "landscapeMobile"
+                        },
+                        {
+                          "columnViewportDefinition": {},
+                          "id": "portraitMobile"
+                        },
+                        {
+                          "columnViewportDefinition": {},
+                          "id": "tablet"
+                        }
+                      ],
+                      "size": 5
+                    },
+                    "pageElements": [
+                      {
+                        "definition": {
+                          "fragment": {
+                            "key": "BASIC_COMPONENT-heading"
+                          },
+                          "fragmentConfig": {
+                            "headingLevel": "h3"
+                          },
+                          "fragmentFields": [
+                            {
+                              "id": "element-text",
+                              "value": {
+                                "fragmentLink": {
+                                  "value_i18n": {}
+                                },
+                                "text": {
+                                  "value_i18n": {
+                                    "en_US": "Search and find"
+                                  }
+                                }
+                              }
+                            }
+                          ],
+                          "fragmentStyle": {
+                            "marginBottom": "3",
+                            "textColor": "colorNeutral0"
+                          }
+                        },
+                        "type": "Fragment"
+                      },
+                      {
+                        "definition": {
+                          "fragment": {
+                            "key": "BASIC_COMPONENT-paragraph"
+                          },
+                          "fragmentConfig": {},
+                          "fragmentFields": [
+                            {
+                              "id": "element-text",
+                              "value": {
+                                "fragmentLink": {
+                                  "value_i18n": {}
+                                },
+                                "text": {
+                                  "value_i18n": {
+                                    "en_US": "Search and find the job that fits your ambitions. Simply apply for the job, or first have a short call, email or whatsapp to get some additional information."
+                                  }
+                                }
+                              }
+                            }
+                          ],
+                          "fragmentStyle": {
+                            "marginBottom": "3",
+                            "textColor": "colorNeutral0"
+                          }
+                        },
+                        "type": "Fragment"
+                      },
+                      {
+                        "definition": {
+                          "fragment": {
+                            "key": "BASIC_COMPONENT-button"
+                          },
+                          "fragmentConfig": {
+                            "buttonType": "primary",
+                            "buttonSize": "sm"
+                          },
+                          "fragmentFields": [
+                            {
+                              "id": "link",
+                              "value": {
+                                "fragmentLink": {
+                                  "value": {
+                                    "href": {
+                                      "mapping": {
+                                        "itemReference": {
+                                          "className": "com.liferay.portal.kernel.model.Layout",
+                                          "fields": [
+                                            {
+                                              "fieldName": "friendlyURL",
+                                              "fieldValue": "/jobs"
+                                            },
+                                            {
+                                              "fieldName": "privatePage",
+                                              "fieldValue": "false"
+                                            },
+                                            {
+                                              "fieldName": "siteKey",
+                                              "fieldValue": "test3553"
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "value_i18n": {}
+                                },
+                                "text": {
+                                  "value_i18n": {
+                                    "en_US": "Find your job"
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        "type": "Fragment"
+                      }
+                    ],
+                    "type": "Column"
+                  },
+                  {
+                    "definition": {
+                      "columnViewports": [
+                        {
+                          "columnViewportDefinition": {},
+                          "id": "landscapeMobile"
+                        },
+                        {
+                          "columnViewportDefinition": {},
+                          "id": "portraitMobile"
+                        },
+                        {
+                          "columnViewportDefinition": {},
+                          "id": "tablet"
+                        }
+                      ],
+                      "size": 7
+                    },
+                    "type": "Column"
+                  }
+                ],
+                "type": "Row"
+              }
+            ],
+            "type": "Section"
           }
         ],
         "type": "Section"
@@ -43,7 +507,7 @@
     "masterPage": {
       "key": "jobzz"
     },
-    "themeName": "Classic"
+    "themeName": "Dialect"
   },
   "version": 1.1
 }
