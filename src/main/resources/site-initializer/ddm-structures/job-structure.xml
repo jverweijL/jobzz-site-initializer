@@ -30,7 +30,7 @@
 		"confirmationLabel": {
 			"en_US": ""
 		},
-		"fieldReference": "Numeric06891604",
+		"fieldReference": "hours_per_week",
 		"tip": {
 			"en_US": ""
 		},
@@ -51,9 +51,9 @@
 			"en_US": "Hours per week"
 		},
 		"inputMask": false,
-		"indexType": "keyword",
 		"fieldNamespace": "",
 		"visibilityExpression": "",
+		"indexType": "keyword",
 		"inputMaskFormat": {
 			"en_US": ""
 		},
@@ -61,66 +61,45 @@
 		"localizable": true
 	}, {
 		"labelAtStructureLevel": true,
-		"dataType": "date",
-		"readOnly": false,
-		"label": {
-			"en_US": "Closingdate"
-		},
-		"type": "date",
-		"showLabel": true,
-		"required": false,
-		"indexType": "keyword",
-		"fieldNamespace": "",
-		"visibilityExpression": "",
-		"repeatable": false,
-		"name": "Date76137562",
-		"nativeField": false,
-		"localizable": true,
-		"fieldReference": "Date23732769",
-		"tip": {
-			"en_US": ""
-		}
-	}, {
-		"labelAtStructureLevel": true,
 		"ddmDataProviderInstanceId": [],
 		"dataType": "string",
 		"multiple": false,
 		"readOnly": false,
 		"label": {
-			"en_US": "Level"
+			"en_US": "Educational Level"
 		},
 		"type": "select",
 		"showLabel": true,
 		"required": false,
-		"indexType": "keyword",
 		"fieldNamespace": "",
 		"visibilityExpression": "",
+		"indexType": "keyword",
 		"ddmDataProviderInstanceOutput": [],
 		"alphabeticalOrder": false,
 		"repeatable": false,
 		"name": "SelectFromList77755269",
 		"options": [{
-			"reference": "Option33748862",
+			"reference": "bachelor",
 			"label": {
-				"en_US": "WO"
+				"en_US": "Bachelor"
 			},
 			"value": "Option33748862"
 		}, {
-			"reference": "Option01311616",
+			"reference": "master",
 			"label": {
-				"en_US": "HBO"
+				"en_US": "Master"
 			},
 			"value": "Option01311616"
 		}, {
-			"reference": "Option00384140",
+			"reference": "doctorate",
 			"label": {
-				"en_US": "MBO"
+				"en_US": "Doctorate"
 			},
 			"value": "Option00384140"
 		}],
 		"nativeField": false,
 		"localizable": true,
-		"fieldReference": "SelectFromList19047357",
+		"fieldReference": "educational_level",
 		"tip": {
 			"en_US": ""
 		},
@@ -136,9 +115,9 @@
 		"type": "checkbox_multiple",
 		"showLabel": true,
 		"required": false,
-		"indexType": "keyword",
 		"fieldNamespace": "",
 		"visibilityExpression": "",
+		"indexType": "keyword",
 		"inline": true,
 		"repeatable": false,
 		"name": "MultipleSelection93746858",
@@ -160,10 +139,16 @@
 				"en_US": "Jobbird"
 			},
 			"value": "Option77563421"
+		}, {
+			"reference": "Option73544239",
+			"label": {
+				"en_US": "Indeed"
+			},
+			"value": "Option73544239"
 		}],
 		"nativeField": false,
 		"localizable": true,
-		"fieldReference": "MultipleSelection74189716",
+		"fieldReference": "share",
 		"tip": {
 			"en_US": ""
 		}
@@ -222,9 +207,9 @@
 		"label": {
 			"en_US": "Intro"
 		},
-		"indexType": "keyword",
 		"fieldNamespace": "",
 		"visibilityExpression": "",
+		"indexType": "keyword",
 		"name": "intro",
 		"localizable": true,
 		"dataSourceType": ""
@@ -247,9 +232,9 @@
 		"showLabel": true,
 		"required": false,
 		"displayStyle": "multiline",
-		"indexType": "keyword",
 		"fieldNamespace": "",
 		"visibilityExpression": "",
+		"indexType": "keyword",
 		"repeatable": false,
 		"name": "Text10426289",
 		"nativeField": false,
@@ -257,7 +242,7 @@
 		"confirmationLabel": {
 			"en_US": ""
 		},
-		"fieldReference": "Text42253664",
+		"fieldReference": "description",
 		"tip": {
 			"en_US": ""
 		},
@@ -284,9 +269,9 @@
 		"showLabel": true,
 		"required": false,
 		"displayStyle": "multiline",
-		"indexType": "keyword",
 		"fieldNamespace": "",
 		"visibilityExpression": "",
+		"indexType": "keyword",
 		"repeatable": false,
 		"name": "Text31871364",
 		"nativeField": false,
@@ -294,7 +279,7 @@
 		"confirmationLabel": {
 			"en_US": ""
 		},
-		"fieldReference": "Text53000217",
+		"fieldReference": "what_we_need",
 		"tip": {
 			"en_US": ""
 		},
@@ -321,9 +306,9 @@
 		"showLabel": true,
 		"required": false,
 		"displayStyle": "multiline",
-		"indexType": "keyword",
 		"fieldNamespace": "",
 		"visibilityExpression": "",
+		"indexType": "keyword",
 		"repeatable": false,
 		"name": "Text38362127",
 		"nativeField": false,
@@ -331,7 +316,7 @@
 		"confirmationLabel": {
 			"en_US": ""
 		},
-		"fieldReference": "Text76017007",
+		"fieldReference": "what_we_offer",
 		"tip": {
 			"en_US": ""
 		},
