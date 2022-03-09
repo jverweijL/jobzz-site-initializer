@@ -204,7 +204,7 @@
 		"confirmationLabel": {
 			"en_US": ""
 		},
-		"fieldReference": "Text20791603",
+		"fieldReference": "intro",
 		"tip": {
 			"en_US": ""
 		},
@@ -225,7 +225,7 @@
 		"indexType": "keyword",
 		"fieldNamespace": "",
 		"visibilityExpression": "",
-		"name": "Text82425611",
+		"name": "intro",
 		"localizable": true,
 		"dataSourceType": ""
 	}, {
