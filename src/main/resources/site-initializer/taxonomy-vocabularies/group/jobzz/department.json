@@ -1,8 +1,6 @@
 {
   "description": "Departments",
-  "externalReferenceCode": "58815",
+  "externalReferenceCode": "CAT_DEPARTMENTS",
   "name": "Department",
-  "taxonomyCategoryProperties": [
-  ],
   "viewableBy": "Anyone"
 }

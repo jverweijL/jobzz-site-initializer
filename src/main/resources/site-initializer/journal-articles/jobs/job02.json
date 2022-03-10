@@ -1,5 +1,8 @@
 {
   "articleId": "job02",
+  "assetCategoryERCs": [
+    "CAT_MARKETING"
+  ],
   "ddmStructureKey": "JOB",
   "ddmTemplateKey": "JOB",
   "folder": "job",
