@@ -8,4 +8,5 @@
 - object apply for job
   - accept/reject
   - invite 1,2,3
+- credits for media
 - ... much more
