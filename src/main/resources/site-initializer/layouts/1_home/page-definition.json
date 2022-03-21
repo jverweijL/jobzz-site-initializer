@@ -11,6 +11,7 @@
           },
           "layout": {
             "borderWidth": 0,
+            "htmlTag": "Div",
             "marginBottom": 4,
             "marginLeft": 0,
             "marginRight": 0,
@@ -40,7 +41,8 @@
                 }
               ],
               "fragmentStyle": {
-                "marginBottom": "3"
+                "marginBottom": "3",
+                "textAlign": ""
               }
             },
             "type": "Fragment"
@@ -52,10 +54,12 @@
         "definition": {
           "fragmentStyle": {
             "borderWidth": "0",
-            "marginBottom": "5"
+            "marginBottom": "5",
+            "textAlign": ""
           },
           "layout": {
             "borderWidth": 0,
+            "htmlTag": "Div",
             "marginBottom": 4,
             "marginLeft": 0,
             "marginRight": 0,
@@ -141,10 +145,13 @@
       {
         "definition": {
           "fragmentStyle": {
-            "marginBottom": "5"
+            "borderWidth": "0",
+            "marginBottom": "5",
+            "textAlign": ""
           },
           "layout": {
             "borderWidth": 0,
+            "htmlTag": "Div",
             "marginBottom": 4,
             "marginLeft": 0,
             "marginRight": 0,
@@ -267,9 +274,78 @@
                             }
                           }
                         }
-                      ]
+                      ],
+                      "fragmentStyle": {
+                        "marginBottom": "3",
+                        "textAlign": ""
+                      }
                     },
                     "type": "Fragment"
+                  },
+                  {
+                    "definition": {
+                      "collectionConfig": {
+                        "collectionReference": {
+                          "className": "com.liferay.asset.list.model.AssetListEntry",
+                          "classPK": 82458
+                        },
+                        "collectionType": "Collection"
+                      },
+                      "displayAllItems": false,
+                      "displayAllPages": false,
+                      "listItemStyle": "",
+                      "listStyle": "",
+                      "numberOfColumns": 1,
+                      "numberOfItems": 5,
+                      "numberOfItemsPerPage": 5,
+                      "numberOfPages": 5,
+                      "showAllItems": false,
+                      "templateKey": ""
+                    },
+                    "pageElements": [
+                      {
+                        "definition": {
+                          "collectionItemConfig": {}
+                        },
+                        "pageElements": [
+                          {
+                            "definition": {
+                              "fragment": {
+                                "key": "BASIC_COMPONENT-heading"
+                              },
+                              "fragmentConfig": {
+                                "headingLevel": "h5"
+                              },
+                              "fragmentFields": [
+                                {
+                                  "id": "element-text",
+                                  "value": {
+                                    "fragmentLink": {
+                                      "value_i18n": {}
+                                    },
+                                    "text": {
+                                      "mapping": {
+                                        "fieldKey": "title",
+                                        "itemReference": {
+                                          "contextSource": "CollectionItem"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ],
+                              "fragmentStyle": {
+                                "marginBottom": "2",
+                                "textAlign": ""
+                              }
+                            },
+                            "type": "Fragment"
+                          }
+                        ],
+                        "type": "CollectionItem"
+                      }
+                    ],
+                    "type": "Collection"
                   }
                 ],
                 "type": "Column"
@@ -284,11 +360,14 @@
         "definition": {
           "fragmentStyle": {
             "backgroundColor": "colorNeutral4",
+            "borderWidth": "0",
             "paddingBottom": "5",
-            "paddingTop": "5"
+            "paddingTop": "5",
+            "textAlign": ""
           },
           "layout": {
             "borderWidth": 0,
+            "htmlTag": "Div",
             "marginBottom": 0,
             "marginLeft": 0,
             "marginRight": 0,
@@ -303,8 +382,13 @@
         "pageElements": [
           {
             "definition": {
+              "fragmentStyle": {
+                "borderWidth": "0",
+                "textAlign": ""
+              },
               "layout": {
                 "borderWidth": 0,
+                "htmlTag": "Div",
                 "marginBottom": 0,
                 "marginLeft": 0,
                 "marginRight": 0,
@@ -384,6 +468,7 @@
                           ],
                           "fragmentStyle": {
                             "marginBottom": "3",
+                            "textAlign": "",
                             "textColor": "colorNeutral0"
                           }
                         },
@@ -412,6 +497,7 @@
                           ],
                           "fragmentStyle": {
                             "marginBottom": "3",
+                            "textAlign": "",
                             "textColor": "colorNeutral0"
                           }
                         },
@@ -431,29 +517,6 @@
                               "id": "link",
                               "value": {
                                 "fragmentLink": {
-                                  "value": {
-                                    "href": {
-                                      "mapping": {
-                                        "itemReference": {
-                                          "className": "com.liferay.portal.kernel.model.Layout",
-                                          "fields": [
-                                            {
-                                              "fieldName": "friendlyURL",
-                                              "fieldValue": "/jobs"
-                                            },
-                                            {
-                                              "fieldName": "privatePage",
-                                              "fieldValue": "false"
-                                            },
-                                            {
-                                              "fieldName": "siteKey",
-                                              "fieldValue": "test3553"
-                                            }
-                                          ]
-                                        }
-                                      }
-                                    }
-                                  },
                                   "value_i18n": {}
                                 },
                                 "text": {
@@ -488,6 +551,110 @@
                       ],
                       "size": 7
                     },
+                    "pageElements": [
+                      {
+                        "definition": {
+                          "collectionConfig": {
+                            "collectionReference": {
+                              "className": "com.liferay.asset.list.model.AssetListEntry",
+                              "classPK": 82458
+                            },
+                            "collectionType": "Collection"
+                          },
+                          "displayAllItems": false,
+                          "displayAllPages": false,
+                          "listItemStyle": "",
+                          "listStyle": "",
+                          "numberOfColumns": 1,
+                          "numberOfItems": 2,
+                          "numberOfItemsPerPage": 5,
+                          "numberOfPages": 5,
+                          "showAllItems": false,
+                          "templateKey": ""
+                        },
+                        "pageElements": [
+                          {
+                            "definition": {
+                              "collectionItemConfig": {}
+                            },
+                            "pageElements": [
+                              {
+                                "definition": {
+                                  "fragment": {
+                                    "key": "job-highlight"
+                                  },
+                                  "fragmentConfig": {},
+                                  "fragmentFields": [
+                                    {
+                                      "id": "link",
+                                      "value": {
+                                        "fragmentLink": {
+                                          "value": {
+                                            "href": {
+                                              "mapping": {
+                                                "fieldKey": "displayPageURL",
+                                                "itemReference": {
+                                                  "contextSource": "CollectionItem"
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "value_i18n": {}
+                                        },
+                                        "text": {
+                                          "mapping": {}
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "id": "location",
+                                      "value": {
+                                        "fragmentLink": {
+                                          "value_i18n": {}
+                                        },
+                                        "text": {
+                                          "mapping": {
+                                            "fieldKey": "location",
+                                            "itemReference": {
+                                              "contextSource": "CollectionItem"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "id": "jobname",
+                                      "value": {
+                                        "fragmentLink": {
+                                          "value_i18n": {}
+                                        },
+                                        "text": {
+                                          "mapping": {
+                                            "fieldKey": "title",
+                                            "itemReference": {
+                                              "contextSource": "CollectionItem"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "fragmentStyle": {
+                                    "backgroundColor": "colorNeutral0",
+                                    "borderRadius": "borderRadiusSm",
+                                    "marginBottom": "4",
+                                    "shadow": "boxShadowSm"
+                                  }
+                                },
+                                "type": "Fragment"
+                              }
+                            ],
+                            "type": "CollectionItem"
+                          }
+                        ],
+                        "type": "Collection"
+                      }
+                    ],
                     "type": "Column"
                   }
                 ],

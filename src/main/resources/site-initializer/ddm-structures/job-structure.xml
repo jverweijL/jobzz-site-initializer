@@ -57,7 +57,7 @@
 		"inputMaskFormat": {
 			"en_US": ""
 		},
-		"name": "Numeric26298683",
+		"name": "hours_per_week",
 		"localizable": true
 	}, {
 		"labelAtStructureLevel": true,
@@ -77,25 +77,25 @@
 		"ddmDataProviderInstanceOutput": [],
 		"alphabeticalOrder": false,
 		"repeatable": false,
-		"name": "SelectFromList77755269",
+		"name": "educational_level",
 		"options": [{
 			"reference": "bachelor",
 			"label": {
 				"en_US": "Bachelor"
 			},
-			"value": "Option33748862"
+			"value": "bachelor"
 		}, {
 			"reference": "master",
 			"label": {
 				"en_US": "Master"
 			},
-			"value": "Option01311616"
+			"value": "master"
 		}, {
 			"reference": "doctorate",
 			"label": {
 				"en_US": "Doctorate"
 			},
-			"value": "Option00384140"
+			"value": "doctorate"
 		}],
 		"nativeField": false,
 		"localizable": true,
@@ -104,6 +104,47 @@
 			"en_US": ""
 		},
 		"dataSourceType": ["manual"]
+	}, {
+		"labelAtStructureLevel": true,
+		"ddmDataProviderInstanceId": [],
+		"tooltip": {
+			"en_US": ""
+		},
+		"requireConfirmation": false,
+		"type": "text",
+		"showLabel": true,
+		"required": false,
+		"displayStyle": "singleline",
+		"ddmDataProviderInstanceOutput": [],
+		"repeatable": false,
+		"nativeField": false,
+		"confirmationLabel": {
+			"en_US": ""
+		},
+		"fieldReference": "location",
+		"tip": {
+			"en_US": ""
+		},
+		"placeholder": {
+			"en_US": ""
+		},
+		"direction": ["vertical"],
+		"hideField": false,
+		"confirmationErrorMessage": {
+			"en_US": ""
+		},
+		"autocomplete": false,
+		"dataType": "string",
+		"readOnly": false,
+		"label": {
+			"en_US": "Location"
+		},
+		"fieldNamespace": "",
+		"visibilityExpression": "",
+		"indexType": "keyword",
+		"name": "location",
+		"localizable": true,
+		"dataSourceType": ""
 	}, {
 		"labelAtStructureLevel": true,
 		"dataType": "string",
@@ -120,31 +161,31 @@
 		"indexType": "keyword",
 		"inline": true,
 		"repeatable": false,
-		"name": "MultipleSelection93746858",
+		"name": "some",
 		"options": [{
-			"reference": "Option87579564",
+			"reference": "linkedin",
 			"label": {
 				"en_US": "LinkedIN"
 			},
-			"value": "Option87579564"
+			"value": "linkedin"
 		}, {
-			"reference": "Option76171979",
+			"reference": "facebook",
 			"label": {
 				"en_US": "Facebook"
 			},
-			"value": "Option76171979"
+			"value": "facebook"
 		}, {
-			"reference": "Option77563421",
+			"reference": "jobbird",
 			"label": {
 				"en_US": "Jobbird"
 			},
-			"value": "Option77563421"
+			"value": "jobbird"
 		}, {
-			"reference": "Option73544239",
+			"reference": "indeed",
 			"label": {
 				"en_US": "Indeed"
 			},
-			"value": "Option73544239"
+			"value": "indeed"
 		}],
 		"nativeField": false,
 		"localizable": true,
@@ -215,30 +256,18 @@
 		"dataSourceType": ""
 	}, {
 		"labelAtStructureLevel": true,
-		"hideField": false,
-		"confirmationErrorMessage": {
-			"en_US": ""
-		},
-		"dataType": "string",
+		"ddmDataProviderInstanceId": [],
 		"tooltip": {
 			"en_US": ""
 		},
-		"readOnly": false,
 		"requireConfirmation": false,
-		"label": {
-			"en_US": "Description"
-		},
 		"type": "text",
 		"showLabel": true,
 		"required": false,
 		"displayStyle": "multiline",
-		"fieldNamespace": "",
-		"visibilityExpression": "",
-		"indexType": "keyword",
+		"ddmDataProviderInstanceOutput": [],
 		"repeatable": false,
-		"name": "Text10426289",
 		"nativeField": false,
-		"localizable": true,
 		"confirmationLabel": {
 			"en_US": ""
 		},
@@ -249,33 +278,37 @@
 		"placeholder": {
 			"en_US": ""
 		},
-		"direction": ["vertical"]
-	}, {
-		"labelAtStructureLevel": true,
+		"direction": ["vertical"],
 		"hideField": false,
 		"confirmationErrorMessage": {
 			"en_US": ""
 		},
+		"autocomplete": false,
 		"dataType": "string",
+		"readOnly": false,
+		"label": {
+			"en_US": "Description"
+		},
+		"fieldNamespace": "",
+		"visibilityExpression": "",
+		"indexType": "keyword",
+		"name": "description",
+		"localizable": true,
+		"dataSourceType": ""
+	}, {
+		"labelAtStructureLevel": true,
+		"ddmDataProviderInstanceId": [],
 		"tooltip": {
 			"en_US": ""
 		},
-		"readOnly": false,
 		"requireConfirmation": false,
-		"label": {
-			"en_US": "What we need"
-		},
 		"type": "text",
 		"showLabel": true,
 		"required": false,
 		"displayStyle": "multiline",
-		"fieldNamespace": "",
-		"visibilityExpression": "",
-		"indexType": "keyword",
+		"ddmDataProviderInstanceOutput": [],
 		"repeatable": false,
-		"name": "Text31871364",
 		"nativeField": false,
-		"localizable": true,
 		"confirmationLabel": {
 			"en_US": ""
 		},
@@ -286,33 +319,37 @@
 		"placeholder": {
 			"en_US": ""
 		},
-		"direction": ["vertical"]
-	}, {
-		"labelAtStructureLevel": true,
+		"direction": ["vertical"],
 		"hideField": false,
 		"confirmationErrorMessage": {
 			"en_US": ""
 		},
+		"autocomplete": false,
 		"dataType": "string",
+		"readOnly": false,
+		"label": {
+			"en_US": "What we need"
+		},
+		"fieldNamespace": "",
+		"visibilityExpression": "",
+		"indexType": "keyword",
+		"name": "whatweneed",
+		"localizable": true,
+		"dataSourceType": ""
+	}, {
+		"labelAtStructureLevel": true,
+		"ddmDataProviderInstanceId": [],
 		"tooltip": {
 			"en_US": ""
 		},
-		"readOnly": false,
 		"requireConfirmation": false,
-		"label": {
-			"en_US": "What we offer"
-		},
 		"type": "text",
 		"showLabel": true,
 		"required": false,
 		"displayStyle": "multiline",
-		"fieldNamespace": "",
-		"visibilityExpression": "",
-		"indexType": "keyword",
+		"ddmDataProviderInstanceOutput": [],
 		"repeatable": false,
-		"name": "Text38362127",
 		"nativeField": false,
-		"localizable": true,
 		"confirmationLabel": {
 			"en_US": ""
 		},
@@ -323,7 +360,23 @@
 		"placeholder": {
 			"en_US": ""
 		},
-		"direction": ["vertical"]
+		"direction": ["vertical"],
+		"hideField": false,
+		"confirmationErrorMessage": {
+			"en_US": ""
+		},
+		"autocomplete": false,
+		"dataType": "string",
+		"readOnly": false,
+		"label": {
+			"en_US": "What we offer"
+		},
+		"fieldNamespace": "",
+		"visibilityExpression": "",
+		"indexType": "keyword",
+		"name": "whatweoffer",
+		"localizable": true,
+		"dataSourceType": ""
 	}]
 }
 			]]>
