@@ -3,5 +3,6 @@
   "ddmStructureKey": "JOB",
   "ddmTemplateKey": "JOB",
   "folder": "job",
-  "name": "Sales Engineer"
+  "name": "Sales Engineer",
+  "assetTagNames": ["highlight"]
 }

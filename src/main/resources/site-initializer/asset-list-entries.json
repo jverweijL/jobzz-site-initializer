@@ -2,6 +2,7 @@
   {
     "ddmStructureKey": "JOB",
     "title": "Homepage",
+    "assetTagNames": ["highlight"],
     "unicodeProperties": {
       "anyClassType": "anyClassTypeJournalArticleAssetRendererFactory",
       "classNameIds": "com.liferay.journal.model.JournalArticle",
