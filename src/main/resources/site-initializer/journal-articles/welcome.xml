@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<root available-locales="en_US" default-locale="en_US" version="1.0">
+    <dynamic-element field-reference="embargo_date" index-type="keyword" instance-id="21CZZk4h" name="Date72972450"
+                     type="date">
+        <dynamic-content language-id="en_US">
+            <![CDATA[2022-01-01]]>
+        </dynamic-content>
+    </dynamic-element>
+    <dynamic-element field-reference="location" index-type="keyword" instance-id="Adwfds9r" name="Text73732322"
+                     type="text">
+        <dynamic-content language-id="en_US">
+            <![CDATA[Amsterdam]]>
+        </dynamic-content>
+    </dynamic-element>
+    <dynamic-element field-reference="intro" index-type="keyword" instance-id="xYuezCS0" name="Text95161408"
+                     type="text">
+        <dynamic-content language-id="en_US">
+            <![CDATA[Ugo opens a new office in Amsterdam. A full-time presence in the Netherlands enables Ugo to work more closely with Dutch clients.]]>
+        </dynamic-content>
+    </dynamic-element>
+    <dynamic-element field-reference="content" index-type="text" instance-id="ZaEvecmg" name="RichText27859765"
+                     type="rich_text">
+        <dynamic-content language-id="en_US">
+            <![CDATA[<p>We are very delighted to share this big step in our strategy to expand on European territory.&nbsp;</p> <p>Since Ugo started in the year 2000 we have opened offices in 22 countries.</p> <p> </p>]]>
+        </dynamic-content>
+    </dynamic-element>
+    <dynamic-element field-reference="image" index-type="text" instance-id="BKEDDtxc" name="Image14309670" type="image">
+        <dynamic-content language-id="en_US">
+            <![CDATA[{"groupId":"93890","width":1920,"alt":"","description":"","title":"office.jpg","classNameId":39684,"type":"document","uuid":"075cac9b-d92c-d46c-e82f-acdf4c38f886","url":"/documents/d/prezz/office-jpg?download=true","fileEntryId":"93903","resourcePrimKey":"93918","height":1282}]]>
+        </dynamic-content>
+    </dynamic-element>
+</root>

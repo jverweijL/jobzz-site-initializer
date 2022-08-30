@@ -1,12 +1,1 @@
 # Todo
-- some jobs
-- improve template
-- improve homepage
-- create jobs overview page
-- create job display template
-- categories/tags
-- object apply for job
-  - accept/reject
-  - invite 1,2,3
-- credits for media
-- ... much more

@@ -1,6 +1,6 @@
-Bundle-Name: Jobzz Site Initializer
-Bundle-SymbolicName: com.liferay.example.site.initializer.jobzz
+Bundle-Name: Prezz Site Initializer
+Bundle-SymbolicName: com.liferay.example.site.initializer.prezz
 Bundle-Version: 1.0.0
-Liferay-Site-Initializer-Name: Jobzz
+Liferay-Site-Initializer-Name: Prezz
 Provide-Capability: liferay.site.initializer
-Web-ContextPath: /jobzz-site-initializer
+Web-ContextPath: /prezz-site-initializer
