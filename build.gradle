@@ -1,3 +1,12 @@
 dependencies {
 	compileOnly group: "com.liferay.portal", name: "release.portal.api"
 }
+
+processResources {
+	doLast {
+		copy {
+			from new File(projectDir, "src/main/resources/site-initializer/thumbnail.png")
+			into new File(projectDir, "classes/META-INF/resources")
+		}
+	}
+}
