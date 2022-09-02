@@ -4,6 +4,6 @@
   "htmlPath": "index.html",
   "cssPath": "index.css",
   "thumbnailPath": "thumbnail.png",
-  "name": "Logo",
+  "name": "Featured",
   "type": "component"
 }

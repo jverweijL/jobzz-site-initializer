@@ -68,8 +68,15 @@
                 "id" : "header-image",
                 "value" : {
                   "fragmentImage" : {
+                    "description" : {
+                      "value_i18n" : {
+                        "en_US" : ""
+                      }
+                    },
                     "url" : {
-                      "value_i18n" : { }
+                      "value_i18n" : {
+                        "en_US" : "[$DOCUMENT_URL:/site-initializer/documents/group/logo.png$]"
+                      }
                     }
                   },
                   "fragmentLink" : { }

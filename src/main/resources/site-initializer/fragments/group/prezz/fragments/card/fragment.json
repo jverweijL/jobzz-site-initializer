@@ -1,9 +1,9 @@
 {
-  "configurationPath": "configuration.json",
+  "configurationPath": "index.json",
   "jsPath": "index.js",
   "htmlPath": "index.html",
   "cssPath": "index.css",
-  "icon": "code",
+  "thumbnailPath": "thumbnail.png",
   "name": "Card",
   "type": "component"
 }
