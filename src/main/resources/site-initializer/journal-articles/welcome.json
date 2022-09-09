@@ -1,7 +1,9 @@
 {
   "articleId": "welcome",
+  "assetCategoryERCs": [
+    "PREZZCAT0001"
+  ],
   "ddmStructureKey": "PRESS-RELEASE",
   "ddmTemplateKey": "FULL",
-  "name": "Welcome",
-  "assetTagNames": ["home"]
+  "name": "Welcome"
 }

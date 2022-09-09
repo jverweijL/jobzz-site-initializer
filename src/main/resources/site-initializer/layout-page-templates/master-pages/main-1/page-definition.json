@@ -3,9 +3,11 @@
     "pageElements" : [ {
       "definition" : {
         "fragmentStyle" : {
+          "borderWidth" : "0",
           "marginBottom" : "4",
           "marginLeft" : "5",
-          "marginRight" : "5"
+          "marginRight" : "5",
+          "textAlign" : ""
         },
         "indexed" : true,
         "layout" : {
@@ -63,7 +65,9 @@
               "fragment" : {
                 "key" : "logo"
               },
-              "fragmentConfig" : { },
+              "fragmentConfig" : {
+                "position" : 50
+              },
               "fragmentFields" : [ {
                 "id" : "header-image",
                 "value" : {
@@ -74,9 +78,7 @@
                       }
                     },
                     "url" : {
-                      "value_i18n" : {
-                        "en_US" : "[$DOCUMENT_URL:/site-initializer/documents/group/logo.png$]"
-                      }
+                      "value_i18n" : { }
                     }
                   },
                   "fragmentLink" : { }
@@ -105,9 +107,6 @@
           },
           "pageElements" : [ {
             "definition" : {
-              "fragmentStyle" : {
-                "textAlign" : "right"
-              },
               "widgetInstance" : {
                 "widgetConfig" : { },
                 "widgetName" : "com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet"
@@ -120,7 +119,8 @@
         "type" : "Row"
       } ],
       "type" : "Section"
-    }, {
+    },
+    {
       "definition" : {
         "indexed" : true,
         "layout" : {
@@ -156,38 +156,7 @@
         }
       },
       "type" : "DropZone"
-    }, {
-      "definition" : {
-        "fragmentStyle" : {
-          "marginLeft" : "5",
-          "marginRight" : "5"
-        },
-        "indexed" : true,
-        "layout" : {
-          "borderWidth" : 0,
-          "marginBottom" : 0,
-          "marginLeft" : 4,
-          "marginRight" : 4,
-          "marginTop" : 0,
-          "paddingBottom" : 0,
-          "paddingLeft" : 0,
-          "paddingRight" : 0,
-          "paddingTop" : 0,
-          "widthType" : "Fluid"
-        }
-      },
-      "type" : "Section"
     } ],
     "type" : "Root"
-  },
-  "settings" : {
-    "colorSchemeName" : "01",
-    "themeName" : "Dialect",
-    "themeSettings" : {
-      "lfr-theme:regular:show-header" : "false",
-      "lfr-theme:regular:show-header-search" : "false",
-      "lfr-theme:regular:show-footer" : "false"
-    }
-  },
-  "version" : 1.1
+  }
 }
